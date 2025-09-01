@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login / Signup - PetMatch</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <header>
+    <nav>
+      <h1 class="logo">🐾 PetMatch</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="pets.html">Pet Listings</a></li>
+        <li><a href="match.html">Match Finder</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <a href="login.html" class="login-btn">Login / Signup</a>
+    </nav>
+  </header>
+  <!-- Page Title -->
+  <section class="page-header">
+    <h2>Login / Signup</h2>
+    <p>Access your PetMatch account or create a new one!</p>
+  </section>
+  <!-- Login/Signup Form -->
+  <section class="form-section">
+    <form id="loginForm">
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Enter your email" required>
+      <label for="password">Password:</label>
+      <input type="password" id="password" placeholder="Enter your password" required>
+      <button type="submit" class="btn">Login</button>
+      <p style="text-align:center; margin-top:10px;">Don’t have an account? <a href="#" id="signupLink">Sign Up</a></p>
+    </form>
+  </section>
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 PetMatch | All Rights Reserved</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

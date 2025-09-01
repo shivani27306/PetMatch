@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pets - PetMatch</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Extra styling for Adopt Me button */
+    .adopt-btn {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 8px 14px;
+      background: #ff6f61;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: bold;
+      transition: 0.3s;
+      text-decoration: none;
+    }
+
+    .adopt-btn:hover {
+      background: #e85b50;
+      transform: scale(1.05);
+    }
+
+    .card-info {
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">🐾 PetMatch</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="pets.html" class="active">Pets</a></li>
+        <li><a href="match.html">Find a Match</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <a href="login.html" class="login-btn">Login / Signup</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <!-- Featured Pets -->
+    <section>
+      <h2 class="section-title">🐶 Featured Pets</h2>
+      <div class="card-grid">
+        <div class="card">
+          <img src="dog1.jpg" alt="Charlie - Labrador">
+          <div class="card-info">
+            <h3>Charlie</h3>
+            <p>Labrador Retriever - Energetic and friendly.</p>
+            <a href="adopt.html" class="adopt-btn">Adopt Me</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="cat1.jpg" alt="Bella - Persian Cat">
+          <div class="card-info">
+            <h3>Bella</h3>
+            <p>Persian Cat - Calm and affectionate.</p>
+            <a href="adopt.html" class="adopt-btn">Adopt Me</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="rabbit1.jpg" alt="Snowy - Rabbit">
+          <div class="card-info">
+            <h3>Snowy</h3>
+            <p>Angora Rabbit - Soft and playful.</p>
+            <a href="adopt.html" class="adopt-btn">Adopt Me</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="bird1.jpg" alt="Milo - Parrot">
+          <div class="card-info">
+            <h3>Milo</h3>
+            <p>Parrot - Talkative and colorful companion.</p>
+            <a href="adopt.html" class="adopt-btn">Adopt Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Categories -->
+    <section>
+      <h2 class="section-title">🐾 Explore by Category</h2>
+
+      <!-- Dogs -->
+      <h3 class="category-title">Dogs</h3>
+      <div class="card-grid">
+        <div class="card">
+          <img src="dog1.jpg" alt="Labrador Retriever">
+          <div class="card-info"><h4>Labrador Retriever</h4>
+          <a href="adopt.html" class="adopt-btn">Adopt Me</a></div>
+        </div>
+        <div class="card">
+          <img src="dog2.jpg" alt="German Shepherd">
+          <div class="card-info"><h4>German Shepherd</h4>
+          <a href="adopt.html" class="adopt-btn">Adopt Me</a></div>
+        </div>
+        <div class="card">
+          <img src="dog3.jpg" alt="Pug">
+          <div class="card-info"><h4>Pug</h4>
+          <a href="adopt.html" class="adopt-btn">Adopt Me</a></div>
+        </div>
+        <div class="card">
+          <img src="pet1.jpg" alt="Charlie">
+          <div class="card-info"><h4>Jack Russell Terrier</h4>
+          <a href="adopt.html" class="adopt-btn">Adopt Me</a></div>
+        </div>
+        <div class="card">
+          <img src="pet2.jpg" alt="Bella">
+          <div class="card-info"><h4>Siberian Husky puppy</h4>
+          <a href="adopt.html" class="adopt-btn">Adopt Me</a></div>
+        </div>
+        <div class="card">
+          <img src="pet3.jpg" alt="Rocky">
+          <div class="card-info"><h4>Weimaraner</h4>
+          <a href="adopt.html" class="adopt-btn">Adopt Me</a></div>
+        </div>
+        <div class="card">
+          <img src="pet4.jpg" alt="Milo">
+          <div class="card-info"><h4>Schnauzer</h4>
+          <a href="adopt.html" class="adopt-btn">Adopt Me</a></div>
+        </div>
+        <div class="card">
+          <img src="pet5.jpg" alt="Luna">
+          <div class="card-info"><h4>Border Collie</h4>
+          <a href="adopt.html" class="adopt-btn">Adopt Me</a></div>
+        </div>
+        <div class="card">
+          <img src="pet6.jpg" alt="Coco">
+          <div class="card-info"><h4>Golden Retriever</h4>
+          <a href="adopt.html" class="adopt-btn">Adopt Me</a></div>
+        </div>
+      </div>
+
+      <!-- Cats -->
+      <h3 class="category-title">Cats</h3>
+      <div class="card-grid">
+        <div class="card">
+          <img src="cat1.jpg" alt="Persian Cat">
+          <div class="card-info"><h4>Persian Cat</h4>
+          <a href="adopt.html" class="adopt-btn">Adopt Me</a></div>
+        </div>
+        <div class="card">
+          <img src="cat2.jpg" alt="Siamese Cat">
+          <div class="card-info"><h4>Siamese Cat</h4>
+          <a href="adopt.html" class="adopt-btn">Adopt Me</a></div>
+        </div>
+        <div class="card">
+          <img src="cat3.jpg" alt="Maine Coon">
+          <div class="card-info"><h4>Maine Coon</h4>
+          <a href="adopt.html" class="adopt-btn">Adopt Me</a></div>
+        </div>
+      </div>
+
+      <!-- Rabbits -->
+      <h3 class="category-title">Rabbits</h3>
+      <div class="card-grid">
+        <div class="card">
+          <img src="rabbit1.jpg" alt="Angora Rabbit">
+          <div class="card-info"><h4>Angora Rabbit</h4>
+          <a href="adopt.html" class="adopt-btn">Adopt Me</a></div>
+        </div>
+        <div class="card">
+          <img src="rabbit2.jpg" alt="Dutch Rabbit">
+          <div class="card-info"><h4>Dutch Rabbit</h4>
+          <a href="adopt.html" class="adopt-btn">Adopt Me</a></div>
+        </div>
+        <div class="card">
+          <img src="rabbit3.jpg" alt="Lionhead Rabbit">
+          <div class="card-info"><h4>Lionhead Rabbit</h4>
+          <a href="adopt.html" class="adopt-btn">Adopt Me</a></div>
+        </div>
+      </div>
+
+      <!-- Birds -->
+      <h3 class="category-title">Birds</h3>
+      <div class="card-grid">
+        <div class="card">
+          <img src="bird1.jpg" alt="Parrot">
+          <div class="card-info"><h4>Parrot</h4>
+          <a href="adopt.html" class="adopt-btn">Adopt Me</a></div>
+        </div>
+        <div class="card">
+          <img src="bird2.jpg" alt="Canary">
+          <div class="card-info"><h4>Canary</h4>
+          <a href="adopt.html" class="adopt-btn">Adopt Me</a></div>
+        </div>
+        <div class="card">
+          <img src="bird3.jpg" alt="Cockatiel">
+          <div class="card-info"><h4>Cockatiel</h4>
+          <a href="adopt.html" class="adopt-btn">Adopt Me</a></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 PetMatch. All rights reserved.</p>
+  </footer>
+</body>
+</html>

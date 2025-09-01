@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Find a Match - PetMatch</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">🐾 PetMatch</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="pets.html">Pets</a></li>
+        <li><a href="match.html" class="active">Find a Match</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <a href="login.html" class="login-btn">Login / Signup</a>
+    </nav>
+  </header>
+
+  <main class="match-section">
+    <h2>Find Your Perfect Pet Match</h2>
+    <form id="matchForm">
+      <label>1. How active are you?</label><br>
+      <select name="activity" required>
+        <option value="high">Very Active</option>
+        <option value="medium">Moderately Active</option>
+        <option value="low">Prefer Calm</option>
+      </select><br><br>
+
+      <label>2. How much space do you have?</label><br>
+      <select name="space" required>
+        <option value="large">Large House / Yard</option>
+        <option value="medium">Apartment with Balcony</option>
+        <option value="small">Small Apartment</option>
+      </select><br><br>
+
+      <label>3. Do you want a low-maintenance pet?</label><br>
+      <select name="maintenance" required>
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select><br><br>
+
+      <button type="submit">Find Match</button>
+    </form>
+
+    <div id="result" class="result-box"></div>
+  </main>
+
+  <footer>
+    <p>© 2025 PetMatch. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
